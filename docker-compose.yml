@@ -11,7 +11,7 @@ volumes:
 
 services:
   loki:
-    image: grafana/loki:2.9.0
+    image: grafana/loki:2.9.2
     volumes:
       - loki-data:/loki
     ports:
